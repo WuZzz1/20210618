@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class IndexController {
     @RequestMapping(value = "/springboot/say")
     public @ResponseBody String say(){
-        return "Hello SpringBoot!"+" Hello GitHub！"+" Hello 吴彦祖！";
+        return "Hello SpringBoot!"+" Hello GitHub！"+" Hello 吴彦祖！好帅";
     }
 
 }
